@@ -296,3 +296,31 @@ header {
     background-color: #183b56;
     padding: 120px var(--padding-inline-section);
 }
+
+/* Footer */
+footer {
+   padding: 80px 0;
+   background-color: #ebf3fa;
+}
+
+.link-column {
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+.footer-container {
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+/* Sub Footer */
+.sub-footer {
+   background-color: #b9cde4;
+   padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+   justify-content: center;
+   gap: 30px;
+}
